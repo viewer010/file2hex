@@ -1,8 +1,10 @@
-#file2hex
 
-##简介
+# file2hex
+
+## 简介
 一个二进制文件与十六进制字符串互转小程序
 ＃#usage
+```
 ~\Desktop>python bin2hex.py -h
 usage: bin2hex.py [-h] [-b | -s OUTFILE] filename
 
@@ -15,8 +17,10 @@ optional arguments:
   -h, --help  show this help message and exit
   -b          convert to binary,default is bin 2 hex
   -s OUTFILE  convert to hex string,save in the outfile, default is a.out
-##example
-###bin file to hex string
+```
+## example
+### bin file to hex string
+```
 ~\Desktop>python bin2hex.py vc6.lnk > test.t
 
 ~\Desktop>type test.t
@@ -33,6 +37,8 @@ optional arguments:
 432b2b5c436f6d6d6f6e5c4d5344657639385c42696e5c4d534445562e4558450000160079006f00
 75007200660065006e0067002700730020007600630036002000650064006900740069006f006e00
 38002e002ea00000000
-
-###hex string to bin file
+```
+### hex string to bin file
+```
 ~\Desktop>python bin2hex.py -s test.out test.t
+```
