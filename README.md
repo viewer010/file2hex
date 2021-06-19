@@ -3,6 +3,7 @@
 
 ## 简介
 一个二进制文件与十六进制字符串互转小程序
+
 ＃#usage
 ```
 ~\Desktop>python bin2hex.py -h
