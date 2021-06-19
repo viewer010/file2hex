@@ -43,3 +43,4 @@ optional arguments:
 ```
 ~\Desktop>python bin2hex.py -s test.out test.t
 ```
+test
